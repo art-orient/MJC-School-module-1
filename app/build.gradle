@@ -29,3 +29,12 @@ application {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+jar {
+    manifest {
+        attributes(
+                'archiveBaseName': rootProject.name,
+                'Version': archiveVersion
+        )
+    }
+}

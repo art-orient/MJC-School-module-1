@@ -1,2 +1,4 @@
 Manifest-Version: 1.0
+archiveBaseName: utils
+Version: 1.3.5
 
