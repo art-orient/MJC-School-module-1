@@ -9,4 +9,7 @@ public class StringUtils {
     public static boolean isPositiveNumber(String str) {
         return NumberUtils.isCreatable(str) && NumberUtils.createBigDecimal(str).compareTo(BigDecimal.ZERO) > 0;
     }
+
+    private StringUtils() {
+    }
 }

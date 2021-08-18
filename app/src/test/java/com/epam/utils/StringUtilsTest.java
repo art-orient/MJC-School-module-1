@@ -5,22 +5,22 @@ import org.junit.jupiter.api.Test;
 
 class StringUtilsTest {
     @Test
-    void isPositiveNumberPositiveTest() {
+    void checkPositiveNumber() {
         Assertions.assertTrue(StringUtils.isPositiveNumber("555"));
     }
 
     @Test
-    void isPositiveNumberNegativeTest() {
+    void checkNegativeNumber() {
         Assertions.assertFalse(StringUtils.isPositiveNumber("-7"));
     }
 
     @Test
-    void isPositiveNumberZeroTest() {
+    void checkZero() {
         Assertions.assertFalse(StringUtils.isPositiveNumber("0"));
     }
 
     @Test
-    void isPositiveNumberNotValidTest() {
+    void checkNotValidData() {
         Assertions.assertFalse(StringUtils.isPositiveNumber("three"));
     }
 }
