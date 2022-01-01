@@ -1,0 +1,24 @@
+From 5e83ed429082f18288eb0da655f82f32db9d3b32 Mon Sep 17 00:00:00 2001
+From: Aliaksandr Artsikhovich <art-orient@tut.by>
+Date: Tue, 10 Aug 2021 20:19:51 +0300
+Subject: [PATCH] updated first two lines in firstFile.txt
+
+---
+ test-repo/firstFile.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/test-repo/firstFile.txt b/test-repo/firstFile.txt
+index 92900fe..c44b1d6 100644
+--- a/test-repo/firstFile.txt
++++ b/test-repo/firstFile.txt
+@@ -1,5 +1,5 @@
+-Empty spaces - what are we living for?
+-Abandoned places - I guess we know the score..
++Queen
++The Show Must Go On
+ On and on!
+ Does anybody know what we are looking for?
+ Another hero - another mindless crime.
+-- 
+2.28.0.windows.1
+
